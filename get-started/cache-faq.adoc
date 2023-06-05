@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-faq.html 
+keywords: volume caching faq, caching frequently asked questions 
+summary: この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。 
+---
+= BlueXPのボリュームキャッシュに関するよくある質問
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。
+
+* BlueXPのボリュームキャッシュURLは何ですか？*
+URLの場合は、ブラウザで次のように入力します。 https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] をクリックしてBlueXPコンソールにアクセスします。
+
+* BlueXPボリュームキャッシュを使用するにはライセンスが必要ですか？*
+ネットアップライセンスファイル（NLF）は必要ありません。
+
+* BlueXPのボリュームキャッシュを有効にするにはどうすればよいですか？*
+BlueXPのボリュームキャッシュを有効にする必要はありません。ボリュームキャッシュオプションは、BlueXPの左側のナビゲーションに自動的に表示されます。

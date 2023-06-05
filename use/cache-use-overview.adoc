@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: use/cache-use-overview.html 
+keywords: volume caching, volume caching 
+summary: ボリュームキャッシングは、リモートの場所にある書き込み可能な永続的ボリュームを提供します。BlueXPのボリュームキャッシュを使用すると、データへのアクセスを高速化したり、アクセス頻度の高いボリュームのトラフィックをオフロードしたりできます。キャッシュボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合に、読み取り処理が大量に発生するワークロードに最適です。 
+---
+= BlueXPのボリュームキャッシュの概要を使用
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+BlueXPのボリュームキャッシュを使用すると、次のような目的でボリュームをキャッシュできます。
+
+* link:../use/cache-create.html["キャッシュを作成します"]。
+* link:../use/cache-manage.html#view-cache-details["キャッシュの詳細を表示します"]。
+* link:../use/cache-manage.html#assign-a-different-cache-export-policy["エクスポートポリシーを変更し、キャッシュのサイズを変更します"]。
+* link:../use/cache-manage.html#delete-a-volume-cache["キャッシュを削除します"]。
+* link:../use/monitor-jobs.html["ボリュームキャッシュ処理を監視する"] 詳細をご確認ください。
+

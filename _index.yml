@@ -1,0 +1,34 @@
+---
+indexpage:
+  lead: ボリュームキャッシングは、リモートの場所にある書き込み可能な永続的ボリュームを提供します。BlueXPのボリュームキャッシュを使用すると、データへのアクセスを高速化したり、アクセス頻度の高いボリュームのトラフィックをオフロードしたりできます。キャッシュボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合に、読み取り処理が大量に発生するワークロードに最適です。
+  tiles:
+  - title: はじめに
+    links:
+    - title: BlueXPのボリュームキャッシュについて説明します
+      url: "/get-started/cache-intro.html"
+    - title: BlueXPボリュームキャッシュの新機能
+      url: "/release-notes/cache-whats-new.html"
+    - title: クイックスタート
+      url: "/get-started/cache-quick-start.html"
+    - title: 前提条件
+      url: "/get-started/cache-prerequisites.html"
+    - title: BlueXPのボリュームキャッシュにログインします
+      url: "/get-started/cache-login.html"
+    - title: よく寄せられる質問
+      url: "/get-started/cache-faq.html"
+  - title: BlueXPのボリュームキャッシュを使用する
+    links:
+    - title: BlueXPのボリュームキャッシュの概要を使用
+      url: "/use/cache-use-overview.html"
+    - title: キャッシュを作成します
+      url: "/use/cache-create.html"
+    - title: キャッシュを管理します
+      url: "/use/cache-manage.html"
+    - title: ボリュームキャッシュジョブを監視します
+      url: "/use/monitor-jobs.html"
+  - title: ブログとコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: クラウドに関する Web セミナー
+      url: https://bluexp.netapp.com/events

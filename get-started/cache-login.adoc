@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-login.html 
+keywords: bluexp login, volume caching log in 
+summary: BlueXPのサービスにアクセスして、BlueXPのボリュームキャッシングを開始しましょう。 
+---
+= BlueXPのボリュームキャッシュにアクセスします
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp BlueXPを使用して、BlueXPのボリュームキャッシュサービスにログインします。
+
+BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["ログインの詳細については、こちらをご覧ください"^]。
+
+.手順
+. Webブラウザを開き、にアクセスします https://console.bluexp.netapp.com/["BlueXPコンソール"^]。
++
+NetApp BlueXPのログインページが表示されます。
+
+. BlueXPにログインします。
+. BlueXPの左側のナビゲーションで、*[モビリティ]*>*[ボリュームキャッシュ]*を選択します。
++
+BlueXPのボリュームキャッシュダッシュボードが表示されます。
+image:landing-page.png["ボリュームキャッシュのランディングページの画像"]
+
++
+
+NOTE: BlueXPコネクタが設定されていない場合は、*[Add a Connector]*オプションが表示されます。を参照してください link:../get-started/cache-setup.html["BlueXPのボリュームキャッシュをセットアップします"]。
+
+

@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-prerequisites.html 
+keywords: what are bluexp volume caching requirements, volume caching prerequisites 
+summary: 環境のサポート、ネットワークアクセス、ログイン、Webブラウザを確認して、BlueXPボリュームキャッシングを開始しましょう。 
+---
+= BlueXPのボリュームキャッシュの前提条件
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+まず、運用環境、ログイン、ネットワークアクセス、Webブラウザの準備状況を確認します。
+
+BlueXPのボリュームキャッシュを使用するには、環境がすべての要件を満たしていることを確認する必要があります。
+
+* ONTAP 9.8以降
++
+** クラスタ管理者のONTAP権限
+** クラスタ上のインタークラスタLIF
+
+
+* BlueXPの場合：
++
+** NetApp BlueXPでBlueXPコネクタをセットアップする必要があります。すべてのソースクラスタとターゲットクラスタが同じBlueXPコネクタ上にある必要があります。を参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["BlueXPクイックスタート"^] および https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネクタについて説明します"^]。
+** 作業環境がセットアップされている必要があります。
+** クラスタがターゲットの作業環境に追加され、オンまたはデグレード状態である必要があります。
+** BlueXPの標準的な要件を参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXPの要件"]。
+
+
+

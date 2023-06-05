@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-setup.html 
+keywords: bluexp, volume caching, 
+summary: BlueXPのボリュームキャッシュを使用するには、いくつかの手順を実行してボリュームキャッシュをセットアップします。 
+---
+= BlueXPのボリュームキャッシュをセットアップします
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+BlueXPのボリュームキャッシュを使用するには、いくつかの手順を実行してボリュームキャッシュをセットアップします。
+
+* レビュー link:../get-started/cache-prerequisites.html["前提条件"] 環境の準備が整っていることを確認します。
+* BlueXPコネクタを作成します。
+* 作業環境の作成
+
+
+
+
+== BlueXPでコネクタを作成します
+
+次のステップは、BlueXPでコネクタを作成することです。
+
+サービスを使用する前にBlueXPでコネクタを作成する方法については、該当するBlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["コネクタの作成方法"^]。
+
+
+
+== 作業環境を作成します
+
+ソースとターゲットの作業環境をまだ作成していない場合は、作成する必要があります。
+
+* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["ONTAP 作業環境用の Amazon FSX を作成します"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS で Cloud Volumes ONTAP を起動します"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure で Cloud Volumes ONTAP を起動します"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["GCPでCloud Volumes ONTAPを起動します"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-adding-systems.html["既存の Cloud Volumes ONTAP システムを追加"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["ONTAP クラスタを検出"^]
+

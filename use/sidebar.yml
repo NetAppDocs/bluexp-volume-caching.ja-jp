@@ -1,0 +1,12 @@
+---
+section: use
+title: BlueXPのボリュームキャッシュを使用する
+entries:
+- title: BlueXPのボリュームキャッシュの概要を使用
+  url: "/use/cache-use-overview.html"
+- title: キャッシュを作成します
+  url: "/use/cache-create.html"
+- title: キャッシュを管理します
+  url: "/use/cache-manage.html"
+- title: ボリュームキャッシュジョブを監視します
+  url: "/use/monitor-jobs.html"

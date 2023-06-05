@@ -1,0 +1,16 @@
+---
+section: get-started
+title: はじめに
+entries:
+- title: BlueXPのボリュームキャッシュについて説明します
+  url: "/get-started/cache-intro.html"
+- title: 前提条件
+  url: "/get-started/cache-prerequisites.html"
+- title: クイックスタート
+  url: "/get-started/cache-quick-start.html"
+- title: BlueXPのボリュームキャッシュをセットアップします
+  url: "/get-started/cache-setup.html"
+- title: BlueXPのボリュームキャッシュにアクセスします
+  url: "/get-started/cache-login.html"
+- title: よく寄せられる質問
+  url: "/get-started/cache-faq.html"
