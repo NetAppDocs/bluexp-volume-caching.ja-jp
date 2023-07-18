@@ -27,7 +27,7 @@ BlueXPのボリュームキャッシュを使用するには、環境がすべ�
 ** NetApp BlueXPでBlueXPコネクタをセットアップする必要があります。すべてのソースクラスタとターゲットクラスタが同じBlueXPコネクタ上にある必要があります。を参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["BlueXPクイックスタート"^] および https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネクタについて説明します"^]。
 ** 作業環境がセットアップされている必要があります。
 ** クラスタがターゲットの作業環境に追加され、オンまたはデグレード状態である必要があります。
-** BlueXPの標準的な要件を参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXPの要件"]。
+** BlueXPの標準的な要件を参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXPの要件"^]。
 
 
 

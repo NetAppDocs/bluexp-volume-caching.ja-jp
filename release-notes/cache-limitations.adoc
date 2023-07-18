@@ -4,7 +4,7 @@ permalink: release-notes/cache-limitations.html
 keywords: volume caching, bluexp 
 summary: ここでは、このリリースのサービスでサポートされていない、またはサービスと正常に相互運用できないプラットフォーム、デバイス、または機能について説明します。 
 ---
-= 既知の制限事項
+= 既知の制限
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

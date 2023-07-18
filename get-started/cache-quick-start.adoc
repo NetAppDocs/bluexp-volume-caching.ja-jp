@@ -16,18 +16,18 @@ summary: NetApp BlueXPボリュームキャッシュサービスは、数ステ�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] 前提条件を確認する
 [role="quick-margin-para"]
-link:../get-started/cache-prerequisites.html["環境がこれらの要件を満たしていることを確認します"^]。
+link:../get-started/cache-prerequisites.html["環境がこれらの要件を満たしていることを確認します"]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2 つ"] ボリュームキャッシュサービスをセットアップします
 [role="quick-margin-para"]
-link:../get-started/cache-setup.html["BlueXPのボリュームキャッシュをセットアップします"^]。
+link:../get-started/cache-setup.html["BlueXPのボリュームキャッシュをセットアップします"]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3つ"] 次の手順
 [role="quick-margin-para"]
 サービスを設定した後、次に行うべきことは次のとおりです。
 
 [role="quick-margin-list"]
-* link:../use/cache-create.html["キャッシュを作成します"^]。
-* link:../use/cache-use-overview.html["キャッシュボリュームのサイズ変更など、キャッシュを管理します"^]。
-* link:../use/monitor-jobs.html["ボリュームキャッシュ処理を監視する"^]。
+* link:../use/cache-create.html["キャッシュを作成します"]。
+* link:../use/cache-use-overview.html["キャッシュの管理、キャッシュの編集、キャッシュのサイズ変更、キャッシュの削除"]。
+* link:../use/monitor-jobs.html["ボリュームキャッシュ処理を監視する"]。
 
