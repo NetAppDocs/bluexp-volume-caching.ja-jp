@@ -10,6 +10,7 @@ summary: ネットアップテクニカルサポートでサポートケース�
 :imagesdir: ../media/
 
 
+[role="lead"]
 BlueXPアカウントと個 々 のCloud Volumes ONTAPシステムにサポートを登録する必要があります。
 
 
@@ -54,10 +55,10 @@ BlueXPアカウントと個 々 のCloud Volumes ONTAPシステムにサポー�
 NSSアカウントをお持ちのネットアップのお客様は、BlueXPからサポートに登録するだけで済みます。
 
 .手順
-. BlueXPコンソールの右上にある[設定]アイコンをクリックし、[資格情報*]を選択します。
-. [ユーザクレデンシャル]*をクリックします。
+. BlueXPコンソールの右上で、[設定]アイコンを選択し、*[クレデンシャル]*を選択します。
+. [ユーザクレデンシャル]*を選択します。
 . [NSSクレデンシャルの追加]*を選択し、NetApp Support Site（NSS）認証プロンプトに従います。
-. 登録プロセスが正常に完了したことを確認するには、[ヘルプ]アイコンをクリックし、*[サポート]*を選択します。
+. 登録プロセスが正常に完了したことを確認するには、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。
 +
 [リソース]ページに、アカウントがサポートに登録されていることが表示されます。
 
@@ -92,7 +93,7 @@ NetAppの既存のお客様で、ライセンスとシリアル番号は_NO_NSS�
 ネットアップ製品を初めてご利用になり、NSSアカウントをお持ちでない場合は、以下の手順に従ってください。
 
 .手順
-. BlueXPコンソールの右上にある[ヘルプ]アイコンをクリックし、[*Support*]を選択します。
+. BlueXPコンソールの右上で、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです"]
 
@@ -150,12 +151,12 @@ NSSクレデンシャルをBlueXPアカウントに関連付ける方法は、Bl
 
 
 .手順
-. BlueXPコンソールの右上にある[ヘルプ]アイコンをクリックし、[*Support*]を選択します。
+. BlueXPコンソールの右上で、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです"]
 
-. [*NSS Management] > [Add NSS Account*] をクリックします。
-. メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。
+. [NSS Management]>[Add NSS Account]*を選択します。
+. プロンプトが表示されたら、*続行*を選択してMicrosoftログインページにリダイレクトします。
 +
 ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。
 

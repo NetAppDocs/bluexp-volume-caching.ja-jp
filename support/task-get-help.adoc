@@ -10,6 +10,7 @@ summary: ネットアップでは、さまざまな方法でBlueXPをサポー�
 :imagesdir: ../media/
 
 
+[role="lead"]
 ネットアップでは、BlueXPとその クラウド サービス をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。
 
 
@@ -48,11 +49,11 @@ BlueXPコミュニティに参加して、進行中のディスカッション�
 
 
 .手順
-. BlueXPで、[ヘルプ]、[サポート]の順にクリックします。
+. BlueXPで、*[ヘルプ]>[サポート]*を選択します。
 . [*Resources*]ページで、[Technical Support]で次のいずれかのオプションを選択します。
 +
-.. 電話の相手と話したい場合は、「*お電話」をクリックしてください。netapp.comのページに移動し、電話番号が表示されます。
-.. [ケースの作成]*をクリックして、ネットアップサポートスペシャリストとのチケットをオープンします。
+.. 電話で誰かと話をしたい場合は、*[電話]*を選択します。netapp.comのページに移動し、電話番号が表示されます。
+.. [ケースの作成]*を選択して、NetAppサポートスペシャリストとのチケットをオープンします。
 +
 *** *Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。
 *** *作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。
@@ -81,7 +82,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/scre
 .完了後
 ポップアップにサポートケース番号が表示されます。ネットアップのサポート担当者がケースを確認し、すぐに対応させていただきます。
 
-サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。
+サポートケースの履歴を確認するには、*[設定]>[タイムライン]*を選択し、「サポートケースの作成」というアクションを検索します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。
 
 ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。
 
@@ -120,14 +121,14 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/scre
 
 
 .手順
-. BlueXPで、[ヘルプ]、[サポート]の順にクリックします。
-. [ケース管理]*をクリックし、プロンプトが表示されたらNSSアカウントをBlueXPに追加します。
+. BlueXPで、*[ヘルプ]>[サポート]*を選択します。
+. [ケース管理]*を選択し、プロンプトが表示されたらNSSアカウントをBlueXPに追加します。
 +
 ケース管理*ページには、BlueXPユーザアカウントに関連付けられたNSSアカウントに関連するオープンケースが表示されます。これは、* NSS管理*ページの上部に表示されるNSSアカウントと同じです。
 
 . 必要に応じて、テーブルに表示される情報を変更します。
 +
-** [Organization's Cases]*で[View]*をクリックすると、会社に関連付けられているすべてのケースが表示されます。
+** [Organization's Cases]*で[View]*を選択すると、会社に関連付けられているすべてのケースが表示されます。
 ** 正確な日付範囲を選択するか、別の期間を選択して、日付範囲を変更します。
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-date-range.png["[Case Management]ページのテーブルの上にあるオプションのスクリーンショット。正確な日付範囲、または過去7日、30日、または3カ月を選択できます。"]
@@ -136,20 +137,20 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/scre
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-filter.png["[Status]列のフィルタオプションのスクリーンショット。[Active]や[Closed]など、特定のステータスに一致するケースを除外できます。"]
 
-** をクリックして、テーブルに表示される列を変更します image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-columns.png["テーブルに表示されるプラスアイコン"] 次に、表示する列を選択します。
+** テーブルに表示される列を変更するには、 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-columns.png["テーブルに表示されるプラスアイコン"] 次に、表示する列を選択します。
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-columns.png["表に表示できる列を示すスクリーンショット。"]
 
 
 
-. をクリックして既存のケースを管理します image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-action.png["テーブルの最後の列に表示される3つの点を持つアイコン"] 使用可能なオプションのいずれかを選択します。
+. 既存のケースを管理するには、 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-action.png["テーブルの最後の列に表示される3つの点を持つアイコン"] 使用可能なオプションのいずれかを選択します。
 +
 ** *ケースの表示*:特定のケースの詳細を表示します。
 ** *ケースノートの更新*：問題の詳細を入力するか、*ファイルのアップロード*を選択して最大5つのファイルを添付します。
 +
 添付ファイルはファイルあたり25 MBに制限されています。サポートされているファイル拡張子は、txt、log、pdf、jpg/jpeg、rtf、 doc/docx、xls/xlsx、およびcsv。
 
-** *ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*をクリックします。
+** *ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*を選択します。
 
 
 +
