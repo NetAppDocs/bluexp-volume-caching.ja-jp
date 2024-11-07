@@ -417,4 +417,5 @@ BlueXPのボリュームキャッシュを有効にする必要はありませ�
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAPで次の主要なワークフローを有効にするには、NetAppサポートサイトのクレデンシャルをBlueXP  組織に関連付ける必要があります。</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSSクレデンシャルとBlueXP  組織の関連付けは、BlueXP  ユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
+  <block id="ff45d71e69fb5930de79de7c94326d7b" category="doc">ボリュームキャッシュ</block>
 </blocks>
