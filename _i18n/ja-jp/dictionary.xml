@@ -14,11 +14,9 @@
   <block id="aad34603323b5d4e67ae4a686a15b2e5" category="summary">ボリュームキャッシングは、リモートの場所にある書き込み可能な永続的ボリュームを提供します。BlueXPのボリュームキャッシュを使用すると、データへのアクセスを高速化したり、アクセス頻度の高いボリュームのトラフィックをオフロードしたりできます。キャッシュボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合に、読み取り処理が大量に発生するワークロードに最適です。</block>
   <block id="5f63db6bf0512dc0612ee852c1faf373" category="doc">BlueXPのボリュームキャッシュ</block>
   <block id="666d3c7d6ea7cfc7ea6e6e6faed1cdd3" category="doc">キャッシュを管理します</block>
-  <block id="fc66df463880523a60b999aff387392a" category="paragraph">キャッシュの編集、エクスポートポリシーの変更、キャッシュのサイズ変更、およびキャッシュの削除を行うことができます。</block>
   <block id="1c0d8013e981cb31dcc7e8733c4fe705" category="paragraph">BlueXPのボリュームキャッシングを使用すると、次のような目的を達成できます。</block>
   <block id="00ac51c16cde551605ec6cf0d3b91416" category="list-text">キャッシュの詳細を表示します。</block>
   <block id="06fc18e5e4898299f1a818098e8e94c7" category="list-text">キャッシュに別のエクスポートポリシーを割り当てます。</block>
-  <block id="8ba82ac05e167f153ba79532f2f1980a" category="list-text">ボリュームのキャッシュを編集し、サイズなどを変更します Editには、他のプロパティを表示および変更するオプションがあり、今後のリリースでは、さらに多くのプロパティが編集に追加される予定です。</block>
   <block id="b8c0701847f6b5a25da10d75bdbcba97" category="list-text">元のボリュームサイズに対する割合に基づいて既存のキャッシュのサイズを変更します。</block>
   <block id="e33b91d9e0fc1cfb3b1e4c432687e47d" category="list-text">キャッシュを削除します。</block>
   <block id="eed3d8fba58a64cd23112120a6117455" category="section-title">キャッシュの詳細を表示します</block>
@@ -34,23 +32,19 @@
   <block id="f3bd519b868da90fe41b12102022d728" category="list-text">必要に応じて、[キャッシュアクセス]タブを展開し、次の値を変更します。</block>
   <block id="4224fae747c5197aa6015f2364e1af12" category="list-text">マウントパス。</block>
   <block id="77cf0358c33e9b52d8fd3920268e696c" category="list-text">既存のエクスポートポリシーとは異なるポリシー。</block>
-  <block id="eccbd53b475458e412e8bcbe57009813" category="list-text">SMB / CIFS共有の詳細またはエクスポートポリシールールを変更するには、該当するオプションをクリックしてBlueXP System Managerにアクセスします。</block>
   <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">[ 保存（ Save ） ] を選択します。</block>
   <block id="e48096df97c7e7e77282b4b97ee9bd9a" category="section-title">別のキャッシュエクスポートポリシーを割り当ててください</block>
   <block id="4635bd9ae5cb389a0305a6b8455fa215" category="paragraph">キャッシュには別のエクスポートポリシーを割り当てることができます。</block>
   <block id="55d1d3e519ab62ebe0a1babb50ae6d72" category="paragraph">ソースのエクスポートポリシールールがターゲットクラスタに適用されている必要があります。</block>
-  <block id="e7ce5893a6e3bdd09c32da72f9a3c69e" category="admonition">既存のエクスポートポリシーをキャッシュに割り当てることができます。エクスポートポリシールールは変更できません。エクスポートポリシーを変更する必要がある場合は、NetAppシステムマネージャを使用できます。</block>
   <block id="4d418cdd8812dfcb356166d6eaf269f7" category="list-text">[エクスポートポリシーの変更]*を選択します。</block>
   <block id="b580ca1414e0a945196190cbfbc1f75d" category="list-text">キャッシュに割り当てるエクスポートポリシーを選択します。</block>
   <block id="31bb5882b51789d8ff23370b949a73ec" category="paragraph">キャッシュボリュームのサイズはソースボリュームの割合に基づいて変更できます。</block>
   <block id="782635f18c9a4c6e77f10be3b478b27a" category="list-text">[サイズ変更]*を選択します。</block>
   <block id="c108e3ea3f3ec7a419ec6372a3325d79" category="list-text">元のボリュームサイズの新しいパーセンテージを入力します。</block>
-  <block id="423f18c1cd7d2cab76c65e9cbd30b5d2" category="paragraph">キャッシュボリュームのサイズが新しい割合に変更されます。</block>
   <block id="8d4c7677b103c84ac6a97f6e946f6380" category="paragraph">キャッシュが不要になった場合は、削除できます。これにより、ボリュームキャッシュ関係とターゲットボリュームキャッシュが削除されます。</block>
   <block id="0f024621e0673f1f4e657983682d6e72" category="list-text">「 * 削除」を選択します。</block>
   <block id="9b4532069e9bc4e1de3c019493dc5ee0" category="list-text">チェックボックスをオンにします。</block>
   <block id="15a05e063d4c5c1c840a1358ea5e2f1a" category="doc">キャッシュを作成します</block>
-  <block id="f547278e453645a6383c4ea6320b1bfa" category="paragraph">Amazon FSx for ONTAP、Cloud Volumes ONTAP、オンプレミスONTAPの間でボリュームキャッシュを作成し、ソース作業環境の1つ以上のソースボリュームをキャッシュソースとして使用できます。次に、キャッシュボリューム用のStorage Virtual Machineを選択します。</block>
   <block id="3bae4a7e1bd988883c56b21e3e66b177" category="paragraph">キャッシュボリュームは、ソースボリュームと同じクラスタにも別のクラスタにも配置できます。キャッシュするボリュームは同じStorage VMに属しており、Storage VMで同じプロトコルを使用している必要があります。</block>
   <block id="40d1cd0fd7b32697fca346c77e81cf33" category="admonition">キャッシュに対応していないボリュームはグレー表示され、選択できません。</block>
   <block id="6594dee820a1fb7f669a0a7cf87596d3" category="paragraph">キャッシュボリュームのサイズは、ソースボリュームサイズに対する割合で入力できます。</block>
@@ -303,15 +297,8 @@
   <block id="00ebffbe73c6303da2faaad0ab45e519" category="list-text">クラウドプロバイダ間でデータをキャッシュすることで、クラウドサイロを解消します</block>
   <block id="3539435a6de515609cc1b8543224f713" category="list-text">ストレージコストを削減</block>
   <block id="a1b38c81c5d745e1d6ec22e5dd6e03bc" category="list-text">地理的に離れた場所でのコラボレーション</block>
-  <block id="a6d7999efa7a1a03a2c0e825c1cf9006" category="list-text">BlueXPでネットアップが管理するサービスを使用</block>
-  <block id="c9ffd0422125f32e82a20e75ccd4fa42" category="list-text">変化するIT環境への迅速な対応</block>
-  <block id="02472e415a539d0a8886679760e38e96" category="list-text">クラウドでホストされるオンデマンドまたはサブスクリプションベースのボリュームキャッシュ</block>
   <block id="c544441b0664ccc643b832fb4c1a2198" category="section-title">BlueXPボリュームキャッシュの機能</block>
   <block id="afbfc91726ebc0228b09fab9d0c7cb8e" category="paragraph">BlueXPのボリュームキャッシュでは、いくつかのNetAppテクノロジをフルに活用して次のような目的を達成できます。</block>
-  <block id="f291c3dfbe876e9b251168316e411067" category="paragraph">BlueXPのボリュームキャッシュサービスでは、いくつかのNetAppテクノロジをフルに活用して次のような目標を達成できます。</block>
-  <block id="b165c27356ec72ed87e0d89023b56a29" category="list-text">あるクラウドプロバイダから別のクラウドプロバイダにデータをキャッシュします</block>
-  <block id="6d14d0fea89a1c59e9646774b2dce3ef" category="list-text">キャッシュエクスポートポリシーを表示および編集します</block>
-  <block id="fd420f91fd55c70ed0b581da9becda92" category="list-text">既存のキャッシュのサイズを変更します</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
   <block id="c060b927fb39869f82ce75db89638641" category="paragraph">NetAppでは、BlueXPボリュームキャッシュサービスの使用料金は請求されませんが、該当するデータの入出力料金については、クラウドプロバイダで確認する必要があります。</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">ライセンス</block>
@@ -418,4 +405,16 @@ BlueXPのボリュームキャッシュを有効にする必要はありませ�
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSSクレデンシャルとBlueXP  組織の関連付けは、BlueXP  ユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
   <block id="ff45d71e69fb5930de79de7c94326d7b" category="doc">ボリュームキャッシュ</block>
+  <block id="a8bac84ff523e931f832e7db81860512" category="list-text">BlueXP  でNetAppマネージドサービスを使用する</block>
+  <block id="6f8213fefb0b6762f1d9c530a2bae206" category="list-text">変化するIT環境に迅速に対応</block>
+  <block id="3d400de59ced76466bf7abdb0ec00cab" category="list-text">クラウドでホストされるオンデマンドまたはサブスクリプションベースのボリュームキャッシュを使用</block>
+  <block id="36d85431ec6c5bc79927239a19ced905" category="list-text">あるクラウドプロバイダから別のクラウドプロバイダにデータをキャッシュします。</block>
+  <block id="c3369e7530496c918d055b6297c1bc2f" category="list-text">キャッシュエクスポートポリシーを表示および編集します。</block>
+  <block id="00b68c9836b8e47862a5da8d7ba18007" category="list-text">既存のキャッシュのサイズを変更します。</block>
+  <block id="61ab08005a7be6cbf1a790400ab44b84" category="paragraph">Amazon FSx for ONTAP、Cloud Volumes ONTAP、オンプレミスONTAPの間にボリュームキャッシュを作成し、ソース作業環境の1つ以上のソースボリュームをキャッシュソースとして使用できます。次に、キャッシュボリューム用のStorage Virtual Machineを選択します。</block>
+  <block id="75d18c897e2efc995fe22f47079933f7" category="paragraph">ボリュームキャッシュの編集、エクスポートポリシーの変更、キャッシュのサイズ変更、キャッシュの削除を行うことができます。</block>
+  <block id="2ab14afb0bc8eed1346cbbb6dae409ce" category="list-text">ボリュームキャッシュを編集し、サイズなどの属性を変更します。</block>
+  <block id="b1173706a82c0b333329c5bf3779ae2a" category="list-text">SMB / CIFS共有の詳細またはエクスポートポリシールールを変更するには、ONTAPシステムマネージャにアクセスするオプションをクリックします。</block>
+  <block id="535184ca902c3c0051ff3401e765baec" category="admonition">既存のエクスポートポリシーをキャッシュに割り当てることができます。エクスポートポリシールールは変更できません。エクスポートポリシーを変更する必要がある場合は、ONTAPシステムマネージャを使用できます。</block>
+  <block id="c76e1ddfccba2139e45754bcf8276247" category="paragraph">キャッシュボリュームのサイズが新しい割合に変更されます。</block>
 </blocks>

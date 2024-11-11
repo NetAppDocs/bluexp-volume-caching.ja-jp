@@ -12,7 +12,7 @@ summary: ボリュームキャッシングは、リモートの場所にある�
 
 
 [role="lead"]
-Amazon FSx for ONTAP、Cloud Volumes ONTAP、オンプレミスONTAPの間でボリュームキャッシュを作成し、ソース作業環境の1つ以上のソースボリュームをキャッシュソースとして使用できます。次に、キャッシュボリューム用のStorage Virtual Machineを選択します。
+Amazon FSx for ONTAP、Cloud Volumes ONTAP、オンプレミスONTAPの間にボリュームキャッシュを作成し、ソース作業環境の1つ以上のソースボリュームをキャッシュソースとして使用できます。次に、キャッシュボリューム用のStorage Virtual Machineを選択します。
 
 キャッシュボリュームは、ソースボリュームと同じクラスタにも別のクラスタにも配置できます。キャッシュするボリュームは同じStorage VMに属しており、Storage VMで同じプロトコルを使用している必要があります。
 
